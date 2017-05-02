@@ -109,6 +109,7 @@ footer{
 	padding: 20px;
 	border-top: 3px inset skyblue ;
 	background-color: #666666;	
+	clear:both;
 }
 
 .active{
