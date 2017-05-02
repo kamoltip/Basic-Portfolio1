@@ -55,6 +55,11 @@ section{
 	margin: 20px 100px 0px 100px;
 
 }
+
+section .image{
+	background-color: 
+}
+
 section .content{
 	width: 500px;
 	height: 410px;
@@ -79,6 +84,9 @@ section .icon{
 	box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.3);
 	background-color: #ffffff;
 }
+section .content .image .box{
+	background-color: grey;
+}
 .icon hr{
 	margin-top:10px;
 	margin-bottom: 10px;
@@ -102,6 +110,7 @@ hr{
 
 }
 footer{
+
 	position: fixed;
 	bottom: 0;
 	width: 100%;
@@ -109,7 +118,7 @@ footer{
 	padding: 20px;
 	border-top: 3px inset skyblue ;
 	background-color: #666666;	
-	clear:both;
+
 }
 
 .active{
@@ -154,43 +163,68 @@ input{
 	margin-bottom:20px;
 	margin-top: 5px;
 	width: 100%;
-}
-.content form textarea{
-	width:100%;
+	padding:8px;
+	border:1px solid lightgrey;
+	outline:none;
+	border-radius:4px;
 }
 
+.content form textarea{
+	width:100%;
+	outline:none;
+	border:1px solid lightgrey;
+	border-radius:4px;
+}
+
+
+
 button{
-	padding:5px;
+	padding:8px;
 	background-color: #4aaaa5;
 	border: none;
+	margin-top:5px;
+	border-radius:4px;
 }
 
 .content .image{
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-wrap: wrap;
-	width:400px;
+	
+}
+.box{
+	position:relative;
+	border:1px solid rgba(0, 0, 0, 0.5);
+	margin-top:10px;
 }
 .box img{
 	width: inherit;
 }
 .box p{
+
 	position: absolute;
 	text-align: center;
-	margin-top: 80px;
-	padding-left: 20px; 
+	bottom:0;
 	color:white;
+	padding:3px;
 	background-color:teal;
 	font-size: 10.5px;
+	width:100%;
+	margin:0;
+
 }
 
 .image .box{
-	padding: 10px;
+	/*padding: 10px;*/
 	/*padding-bottom: 10px;
 	padding-left: -50px;*/
-	margin-right: -45px;
-	margin-left: 25px;
+	/*margin-right: -45px;*/
+	/*margin-left: 25px;*/
 
 
 }
+
+
+
+
